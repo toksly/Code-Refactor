@@ -152,3 +152,9 @@ footer h2 {
     #leftsidebar {width: 200px; float: left;}
     #main {margin-left: 216px;}
   }
+  @media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
